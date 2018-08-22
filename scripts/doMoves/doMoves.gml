@@ -1,4 +1,4 @@
-// 
+// Vive les zizis
 with (object1)
 {
     t = (timerB - timerA) * 0.001;
