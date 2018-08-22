@@ -1,0 +1,1 @@
+window_set_size(320*3, 240*3);
