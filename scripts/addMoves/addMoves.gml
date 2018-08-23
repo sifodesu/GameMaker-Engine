@@ -1,4 +1,4 @@
-with (object1)
+with (self)
 {
     if (keyboard_check_pressed(ord("W")))
     {

@@ -1,5 +1,5 @@
 // 
-with (object1)
+with (self)
 {
     out = 0;
     while (!out && ds_list_size(movesY))

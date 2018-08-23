@@ -1,5 +1,5 @@
 // Vive les zizis
-with (object1)
+with (self)
 {
     t = (timerB - timerA) * 0.001;
     xMove = round(speedX * t);

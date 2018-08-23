@@ -1,4 +1,4 @@
-with (object1)
+with (self)
 {
     for (i = 0; i < 2; i += 1)
     {
