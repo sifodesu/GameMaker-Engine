@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "8254f0fc-d7f5-401e-8939-b1ea925788e6",
+            "Value": {
+                "id": "3caf16c2-cfd8-48de-b7f7-411841f93197",
+                "resourcePath": "objects\\oTextPrinter\\oTextPrinter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8f4c6429-8676-48aa-9b66-52f632dce898",
             "Value": {
                 "id": "53418e83-5e57-4c3a-bdb7-44b5ce4e6fc5",
@@ -284,6 +292,14 @@
                 "id": "7302f5b4-2db8-447b-8a06-39279e488cb2",
                 "resourcePath": "views\\e2d1dcfd-c8b6-4b89-9d76-1df9161fa614.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e32888ee-2240-4da8-8fd7-328f81efc5cc",
+            "Value": {
+                "id": "df441d80-70b8-4934-a815-10dfcd7e2cd4",
+                "resourcePath": "objects\\oPanal\\oPanal.yy",
+                "resourceType": "GMObject"
             }
         },
         {
