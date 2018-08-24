@@ -34,3 +34,6 @@ blitX = x; blitY = y; blitW = string_width("A")*sizeOfPolice; blitH = string_wid
 	}
 	
 	if (string_length(str)-1 == iterator) lock = 1;
+
+
+	draw_text(x, y, "JAJAAAAA");

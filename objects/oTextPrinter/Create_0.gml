@@ -1,0 +1,11 @@
+str = "";	
+sizeOfPolice = 1;
+policeID = font0;
+iterator = 0;
+w = 50;
+h = 100;
+lock = 0;
+showDialogBox = 0;
+speedPrint = 50;
+timerA = current_time;
+timerB = current_time;
