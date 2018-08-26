@@ -1,4 +1,3 @@
-// Vive les zizis
 with (self)
 {
     t = (timerB - timerA) * 0.001;

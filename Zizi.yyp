@@ -103,10 +103,26 @@
             }
         },
         {
+            "Key": "4b86ac9e-4ffd-4324-b35c-871a3db8e46d",
+            "Value": {
+                "id": "b320d42a-96ff-4429-94aa-51d338e490f3",
+                "resourcePath": "objects\\oInteractive\\oInteractive.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4bb94897-1899-4737-91a9-b06d8e25bb79",
             "Value": {
                 "id": "2736bd52-79ac-4f9d-93b2-1f4da474a90a",
                 "resourcePath": "scripts\\handleMoves\\handleMoves.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4c9af8d2-57af-434d-8915-7c64e032b7dd",
+            "Value": {
+                "id": "435fa81f-fd9d-464f-ba5c-2407abaa29ae",
+                "resourcePath": "scripts\\triggerObjAround\\triggerObjAround.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -207,14 +223,6 @@
             }
         },
         {
-            "Key": "a34514e8-154a-4f55-8524-71b289997c21",
-            "Value": {
-                "id": "499fe7df-8b42-4fa1-b0ee-85c91c9eecbc",
-                "resourcePath": "sprites\\sprite5\\sprite5.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "829d05ec-fa7f-4d97-9062-14178f09df33",
@@ -244,6 +252,14 @@
                 "id": "9169a904-1847-4564-86eb-dbd293c88c16",
                 "resourcePath": "scripts\\setSprite\\setSprite.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bf62cb5f-a364-4df2-8470-215295ddb125",
+            "Value": {
+                "id": "1437b95d-059f-436b-b207-f5bb6bc8a9e1",
+                "resourcePath": "sprites\\sprite5\\sprite5.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -287,14 +303,6 @@
             }
         },
         {
-            "Key": "dff33fba-4183-43c7-a26e-b4aae32c6b64",
-            "Value": {
-                "id": "2f23aad9-6832-4dd3-9c51-087c25644356",
-                "resourcePath": "objects\\object2\\object2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "e2d1dcfd-c8b6-4b89-9d76-1df9161fa614",
             "Value": {
                 "id": "7302f5b4-2db8-447b-8a06-39279e488cb2",
@@ -331,7 +339,8 @@
         "614a2746-f52c-46d3-8747-c733c58ba71f",
         "4bb94897-1899-4737-91a9-b06d8e25bb79",
         "1e817b66-dddd-4915-9f8e-ac4f4b1280df",
-        "b12273ab-3ab9-4b5e-837b-50a6e21b9b24"
+        "b12273ab-3ab9-4b5e-837b-50a6e21b9b24",
+        "4c9af8d2-57af-434d-8915-7c64e032b7dd"
     ],
     "tutorial": ""
 }

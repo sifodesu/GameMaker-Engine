@@ -1,0 +1,1 @@
+strToPrint = "Vive les bites";
