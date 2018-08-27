@@ -1,25 +1,13 @@
-//Why it doesn't catch the inst when mainDirection < 0 ?
-//the bonus -1 should be working ?
 with(self) {
-    if (mainDirection % 2) { //vertical
-        bonusY = -1;
-        if (sign(mainDirection) > 0)
-            bonusY = sprite_height;
-        for (i = 0; i < sprite_width; i++) {
-            inst = instance_position(x + i, y + bonusY, oInteractive);
-            if (inst != noone)
-                inst.ev0 = 1;
-        }
+    if ((mainDirection % 2) != 0) { //vertical
+		inst = instance_place(x, y + sign(mainDirection), oInteractive);
     }
 
-    if (!(mainDirection % 2)) { //horizontal
-        bonusX = -1;
-        if (sign(mainDirection) > 0)
-            bonusX = sprite_width;
-        for (i = 0; i < sprite_height; i++) {
-            inst = instance_position(x + bonusX, y + i, oInteractive);
-            if (inst != noone)
-                inst.ev0 = 1;
-        }
+   else { //horizontal
+		inst = instance_place(x + sign(mainDirection), y, oInteractive);
     }
+	
+	if (inst != noone)
+		inst.ev0 = 1;
+	//may need to trigger more than one custom event
 }
