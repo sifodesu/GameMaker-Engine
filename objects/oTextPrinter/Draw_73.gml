@@ -1,6 +1,7 @@
 //to clean and comment
 
 draw_rectangle(x, y, x+w, y+h, true);
+draw_set_font(policeID);
 
 timerB = current_time;
 if (timerB-timerA>speedPrint && iterator < string_length(str)-1)
@@ -34,10 +35,10 @@ blitX = x; blitY = y; blitW = string_width("A")*sizeOfPolice; blitH = string_wid
 				}
 			}
 		}
-		if (string_char_at(str, i+1) < 0 || string_char_at(str, i+1) > 127) {
-			draw_text_transformed(blitX, blitY, "?", sizeOfPolice, sizeOfPolice, policeID);
+		if (string_char_at(str, i+1) < 0 || string_char_at(str, i+1) > 128) {
+			draw_text_transformed(blitX, blitY, "?", sizeOfPolice, sizeOfPolice, 0);
 		}
-		else draw_text_transformed(blitX, blitY, string_char_at(str, i+1), sizeOfPolice, sizeOfPolice, policeID);
+		else draw_text_transformed(blitX, blitY, string_char_at(str, i+1), sizeOfPolice, sizeOfPolice, 0);
 		
 		blitX += blitW;
 	}

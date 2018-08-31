@@ -2,7 +2,7 @@
     "id": "54d2e861-89b9-4d08-bbc1-64b528d024c0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "object1",
+    "name": "oChara",
     "eventList": [
         {
             "id": "1cb7bba4-dc73-4151-8bf5-e5be382dd8aa",

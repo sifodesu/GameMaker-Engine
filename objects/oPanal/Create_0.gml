@@ -1,4 +1,5 @@
 /// @description
 
-strToPrint = "Titisme";	//string to print
+strToPrint = "String test";	//string to print
 ev0 = 0;
+myPrinter = noone;

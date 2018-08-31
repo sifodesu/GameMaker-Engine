@@ -130,7 +130,7 @@
             "Key": "54d2e861-89b9-4d08-bbc1-64b528d024c0",
             "Value": {
                 "id": "bb0d0339-f817-4de3-a20a-097cb4b5654a",
-                "resourcePath": "objects\\object1\\object1.yy",
+                "resourcePath": "objects\\oChara\\oChara.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -274,7 +274,7 @@
             "Key": "cd474911-1d57-44b1-ae29-1adf2675d4c8",
             "Value": {
                 "id": "0587b60e-fd83-4e53-bc70-3fec93467a04",
-                "resourcePath": "objects\\object0\\object0.yy",
+                "resourcePath": "objects\\oSolidGen\\oSolidGen.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -292,6 +292,14 @@
                 "id": "97596fef-d32f-4a2f-85e3-02b68bd122e3",
                 "resourcePath": "views\\d7200c27-033d-4a68-9362-eb3b4a627c2d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d90be3b6-c180-4e62-8847-cd2b4f3d3c22",
+            "Value": {
+                "id": "c25969c9-86b5-4374-b3ff-ecf493c3997f",
+                "resourcePath": "objects\\ovLord\\ovLord.yy",
+                "resourceType": "GMObject"
             }
         },
         {

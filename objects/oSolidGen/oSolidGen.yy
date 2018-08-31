@@ -2,7 +2,7 @@
     "id": "cd474911-1d57-44b1-ae29-1adf2675d4c8",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "object0",
+    "name": "oSolidGen",
     "eventList": [
         
     ],

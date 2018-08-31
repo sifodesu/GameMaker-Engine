@@ -8,7 +8,7 @@ doMoves();
 
 setSprite();
 
-if(keyboard_check_pressed(kInteract)) 
+if(keyboard_check_pressed(global.kInteract)) 
 	triggerObjAround();
 
 
