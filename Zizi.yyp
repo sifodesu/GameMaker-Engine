@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0acbbf60-ddd3-482f-b10e-b1d77a2890b7",
+            "Value": {
+                "id": "91cd02f3-b3a6-49be-adad-41edb67929b3",
+                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0fc03a97-0e5e-4839-a207-f3cac8110304",
             "Value": {
                 "id": "b55b94f5-36df-42cc-afc4-ebee8c97ef6a",
@@ -124,6 +132,14 @@
                 "id": "435fa81f-fd9d-464f-ba5c-2407abaa29ae",
                 "resourcePath": "scripts\\triggerObjAround\\triggerObjAround.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "53b12b73-9eed-4c5c-aa28-b9b9b35bbf54",
+            "Value": {
+                "id": "e6df694d-18df-42f8-b964-56eb3c25d21c",
+                "resourcePath": "objects\\object6\\object6.yy",
+                "resourceType": "GMObject"
             }
         },
         {

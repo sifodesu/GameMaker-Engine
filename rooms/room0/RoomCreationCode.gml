@@ -1,1 +1,1 @@
-window_set_size(480*3, 270*3);
+camera_set_view_size(view_camera[0], 480, 270);
