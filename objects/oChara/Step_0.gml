@@ -4,9 +4,11 @@ addMoves();
 
 handleMoves();
 
-doMoves();
+if (!global.lockPlayer) {
+	doMoves();
+	setSprite();
+}
 
-setSprite();
 
 if(keyboard_check_pressed(global.kInteract)) 
 	triggerObjAround();
