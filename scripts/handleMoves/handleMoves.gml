@@ -7,7 +7,7 @@ with (self)
         switch (ds_list_find_value(movesY, ds_list_size(movesY) - 1))
         {
             case -1:
-                if (keyboard_check(ord("W")))
+                if (keyboard_check(global.kUp))
                 {
                     speedY = -xCSPEED;
                     out = 1;
@@ -16,7 +16,7 @@ with (self)
                     ds_list_delete(movesY, ds_list_size(movesY) - 1); // movesY.pop_back();
                 break;
             case 1:
-                if (keyboard_check(ord("S")))
+                if (keyboard_check(global.kDown))
                 {
                     speedY = xCSPEED;
                     out = 1;
@@ -33,7 +33,7 @@ with (self)
         switch (ds_list_find_value(movesX, ds_list_size(movesX) - 1))
         {
             case 2:
-                if (keyboard_check(ord("D")))
+                if (keyboard_check(global.kRight))
                 {
                     speedX = xCSPEED;
                     out = 1;
@@ -42,7 +42,7 @@ with (self)
                     ds_list_delete(movesX, ds_list_size(movesX) - 1); // movesX.pop_back();
                 break;
             case -2:
-                if (keyboard_check(ord("A")))
+                if (keyboard_check(global.kLeft))
                 {
                     speedX = -xCSPEED;
                     out = 1;
@@ -59,7 +59,7 @@ with (self)
         switch (ds_list_find_value(cdirection, ds_list_size(cdirection) - 1))
         {
             case -1:
-                if (keyboard_check(ord("W")))
+                if (keyboard_check(global.kUp))
                 {
                     mainDirection = -1;
                     out = 1;
@@ -68,7 +68,7 @@ with (self)
                     ds_list_delete(cdirection, ds_list_size(cdirection) - 1);
                 break;
             case 1:
-                if (keyboard_check(ord("S")))
+                if (keyboard_check(global.kDown))
                 {
                     mainDirection = 1;
                     out = 1;
@@ -77,7 +77,7 @@ with (self)
                     ds_list_delete(cdirection, ds_list_size(cdirection) - 1);
                 break;
             case 2:
-                if (keyboard_check(ord("D")))
+                if (keyboard_check(global.kRight))
                 {
                     mainDirection = 2;
                     out = 1;
@@ -86,7 +86,7 @@ with (self)
                     ds_list_delete(cdirection, ds_list_size(cdirection) - 1);
                 break;
             case -2:
-                if (keyboard_check(ord("A")))
+                if (keyboard_check(global.kLeft))
                 {
                     mainDirection = -2;
                     out = 1;

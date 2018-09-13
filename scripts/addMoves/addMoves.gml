@@ -1,6 +1,6 @@
 with (self)
 {
-    if (keyboard_check_pressed(ord("W")))
+    if (keyboard_check_pressed(global.kUp))
     {
         if (!ds_list_size(movesY))
             ds_list_add(movesY, -1);
@@ -12,7 +12,7 @@ with (self)
             ds_list_add(cdirection, -1);
     }
     
-    if (keyboard_check_pressed(ord("S")))
+    if (keyboard_check_pressed(global.kDown))
     {
         if (!ds_list_size(movesY))
             ds_list_add(movesY, 1);
@@ -24,7 +24,7 @@ with (self)
             ds_list_add(cdirection, 1);
     }
     
-    if (keyboard_check_pressed(ord("D")))
+    if (keyboard_check_pressed(global.kRight))
     {
         if (!ds_list_size(movesX))
             ds_list_add(movesX, 2);
@@ -36,7 +36,7 @@ with (self)
             ds_list_add(cdirection, 2);
     }
     
-    if (keyboard_check_pressed(ord("A")))
+    if (keyboard_check_pressed(global.kLeft))
     {
         if (!ds_list_size(movesX))
             ds_list_add(movesX, -2);
