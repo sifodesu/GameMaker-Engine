@@ -1,17 +1,17 @@
 timerB = current_time;
 
-addMoves();
+add_moves();
 
-handleMoves();
+handle_moves();
 
 if (!global.lockPlayer) {
-	doMoves();
-	setSprite();
+	do_moves();
+	set_sprite();
 }
 
 
 if(keyboard_check_pressed(global.kInteract)) 
-	triggerObjAround();
+	trigger_obj_around();
 
 
 timerA = timerB;

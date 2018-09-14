@@ -1,4 +1,4 @@
-globals(); // Set global variables
+set_globals(); // Set global variables
 
 ini_open("saveTest.ini"); //-> local
 
