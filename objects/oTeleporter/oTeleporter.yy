@@ -13,6 +13,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "c6158a45-5f52-4fa8-95d5-650c242b7356"
+        },
+        {
+            "id": "6fc7008f-630e-4a47-8280-656c3461aa98",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "c6158a45-5f52-4fa8-95d5-650c242b7356"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -61,7 +71,7 @@
             "varType": 0
         },
         {
-            "id": "c6c6011c-8c01-4610-8e07-5c192ce191d9",
+            "id": "87200510-1aaa-428b-b76f-5250b7cbab02",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -70,8 +80,22 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
-            "varName": "initialContact",
+            "value": "True",
+            "varName": "enableTransition",
+            "varType": 3
+        },
+        {
+            "id": "61d2c77d-9b74-48f4-bdc0-e1920410e3fa",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "oTransitionTest",
+            "varName": "transitionName",
             "varType": 0
         }
     ],

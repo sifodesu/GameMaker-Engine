@@ -9,6 +9,11 @@ if (!global.lockPlayer) {
 	set_sprite();
 }
 
+else {
+	image_speed = 0;
+	image_index = 0;		
+}
+
 
 if(keyboard_check_pressed(global.kInteract)) 
 	trigger_obj_around();

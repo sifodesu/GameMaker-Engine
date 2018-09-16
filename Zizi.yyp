@@ -295,14 +295,6 @@
             }
         },
         {
-            "Key": "827ed18c-e48f-40a0-a9cb-ddad6ce19af6",
-            "Value": {
-                "id": "cda6cebb-7022-4234-a47b-2e2204620abb",
-                "resourcePath": "notes\\note0.yy",
-                "resourceType": "GMNotes"
-            }
-        },
-        {
             "Key": "83990337-6203-4ef1-b6b7-01a05113fd1e",
             "Value": {
                 "id": "d8ef9468-567b-4002-af6e-c2f94f3edcee",
@@ -451,6 +443,14 @@
             "Value": {
                 "id": "0587b60e-fd83-4e53-bc70-3fec93467a04",
                 "resourcePath": "objects\/oSolidGen\/oSolidGen.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d1a0cfb1-87c7-4c94-a5c6-82b49cafc4cb",
+            "Value": {
+                "id": "c0678d9d-1c37-47db-84ee-eae24bed6652",
+                "resourcePath": "objects\\oTransitionTest\\oTransitionTest.yy",
                 "resourceType": "GMObject"
             }
         },
