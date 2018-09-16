@@ -1,8 +1,10 @@
 timerB = current_time;
 
-add_moves();
+//add_moves();
 
-handle_moves();
+//handle_moves();
+
+set_moves();
 
 if (!global.lockPlayer) {
 	do_moves();
