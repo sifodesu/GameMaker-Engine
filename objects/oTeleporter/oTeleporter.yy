@@ -43,20 +43,6 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "2b6f6897-9d1b-4744-8751-ac5ecee21ae6",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "\"A\"",
-            "varName": "type",
-            "varType": 2
-        },
-        {
             "id": "db194156-0d20-4306-b20c-40eb0132bed6",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -66,8 +52,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "-1",
-            "varName": "destination",
+            "value": "noone",
+            "varName": "nextRoom",
             "varType": 0
         },
         {
@@ -96,6 +82,20 @@
             "resourceFilter": 1023,
             "value": "oTransitionTest",
             "varName": "transitionName",
+            "varType": 0
+        },
+        {
+            "id": "54611a61-c4d8-45b5-a330-e54d0c7728a9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "pointDest",
             "varType": 0
         }
     ],

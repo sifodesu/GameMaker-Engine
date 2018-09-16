@@ -3,18 +3,16 @@ if (initialContact && !place_meeting(x, y, oChara))
 	initialContact = 0;	
 	
 
-if (!initialContact && place_meeting(x, y, oChara) && !ev0) {
-	if (room_exists(destination)) {
+if (!initialContact && place_meeting(x, y, oChara) && !ev0 && inst = noone) {
+	if (room_exists(nextRoom)) {
 		if (enableTransition) {
 			 inst = instance_create_layer(0, 0,global.mainLayer, transitionName);
 			 inst.dad = self;
-			 inst.roomFrom = room;
-			 inst.roomTo = destination;
 		}
 
 		else {
-			room_goto(destination);
-			oChara.needTele = type;
+			room_goto(nextRoom);
+			oChara.needTele = pointDest;
 		}
 	}
 	
@@ -22,6 +20,6 @@ if (!initialContact && place_meeting(x, y, oChara) && !ev0) {
 }
 
 if (ev0) {
-	room_goto(destination);
-	oChara.needTele = type;
+	room_goto(nextRoom);
+	oChara.needTele = pointDest;
 }

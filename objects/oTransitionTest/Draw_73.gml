@@ -1,4 +1,4 @@
-if (roomFrom == -1 || roomTo == -1 || dad == noone) {
+if (dad == noone) {
 	//incorrect parameters
 	instance_destroy(self);
 }
@@ -6,17 +6,18 @@ if (roomFrom == -1 || roomTo == -1 || dad == noone) {
 
 global.lockPlayer = 1;
 
-if (roomFrom = room) {
+if (signD == 1) {
 	if (i < global.camera_height){
 		i+= speed;
 		draw_rectangle_color(0, 0, global.camera_width, i, c_black, c_black, c_black, c_black, false);
 	}
 	else {
 		dad.ev0 = 1;
+		signD = -1;
 	}
 }
 
-else {
+if (signD == -1) {
 	if (i > 0) {
 		i-= speed;
 		draw_rectangle_color(0, 0, global.camera_width, i, c_black, c_black, c_black, c_black, false);
