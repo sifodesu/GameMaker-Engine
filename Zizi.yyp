@@ -178,7 +178,7 @@
             "Key": "4bb94897-1899-4737-91a9-b06d8e25bb79",
             "Value": {
                 "id": "2736bd52-79ac-4f9d-93b2-1f4da474a90a",
-                "resourcePath": "scripts\\old_handle_moves\\old_handle_moves.yy",
+                "resourcePath": "scripts\\handle_moves\\handle_moves.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -234,7 +234,7 @@
             "Key": "614a2746-f52c-46d3-8747-c733c58ba71f",
             "Value": {
                 "id": "935ef6dc-6a5e-4eae-95e7-985d3ba1eaba",
-                "resourcePath": "scripts\\old_add_moves\\old_add_moves.yy",
+                "resourcePath": "scripts\\add_moves\\add_moves.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -522,7 +522,7 @@
             "Key": "fa171e06-1296-476b-a204-6863cd965561",
             "Value": {
                 "id": "fcbff153-41ea-4f4d-8b37-a24ae85883a7",
-                "resourcePath": "scripts\\set_moves\\set_moves.yy",
+                "resourcePath": "scripts\\__set_moves\\__set_moves.yy",
                 "resourceType": "GMScript"
             }
         },

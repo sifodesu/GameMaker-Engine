@@ -12,7 +12,7 @@
         "4c9af8d2-57af-434d-8915-7c64e032b7dd"
     ],
     "filterType": "GMScript",
-    "folderName": "Old_MovingUnitFuns",
+    "folderName": "movingUnitFuns",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
