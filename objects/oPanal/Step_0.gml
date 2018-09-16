@@ -17,7 +17,7 @@ if (restrict > 0) ev0 = 0;
 
 if (ev0) {
 	if (myPrinter == noone) {
-		myPrinter = instance_create_layer(x-sprite_width/2, y+sprite_height/2, "Instances", oTextPrinter);
+		myPrinter = instance_create_layer(x-sprite_width/2, y+sprite_height/2, global.mainLayer, oTextPrinter);
 		with (myPrinter) {
 			str = other.strToPrint;
 		}
