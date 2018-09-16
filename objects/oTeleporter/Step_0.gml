@@ -3,13 +3,11 @@ if (initialContact && !place_meeting(x, y, oChara))
 	initialContact = 0;	
 	
 
-if (!initialContact && place_meeting(x, y, oChara) && !ev0) {
+if (!initialContact && place_meeting(x, y, oChara) && !ev0 && inst = noone) {
 	if (room_exists(destination)) {
 		if (enableTransition) {
 			 inst = instance_create_layer(0, 0,global.mainLayer, transitionName);
 			 inst.dad = self;
-			 inst.roomFrom = room;
-			 inst.roomTo = destination;
 		}
 
 		else {
