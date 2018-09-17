@@ -7,7 +7,10 @@ with(self) {
 		inst = instance_place(x + sign(mainDirection), y, oInteractive);
     }
 	
-	if (inst != noone)
-		inst.ev0 = 1;
+	if (inst != noone) {
+		if (inst.activated == false) {
+			inst.trigger = true;
+		}
+	}
 	//may need to trigger more than one custom event
 }
