@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "1b2e6bfd-7c8d-4eee-a670-87e59c395d7f",
+            "Value": {
+                "id": "a62791f8-21c3-4221-b295-9ea78fa49471",
+                "resourcePath": "scripts\\exit_game\\exit_game.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1c4a6ae0-2047-4f40-a231-7d1230f0df71",
             "Value": {
                 "id": "f7da138f-9494-47c9-94bd-40d48e846b9f",
@@ -116,6 +124,14 @@
                 "id": "5da7f456-3e16-4f08-8ce3-a9c2e4c2ee0c",
                 "resourcePath": "objects\/oDestinationA\/oDestinationA.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2bd60077-30e5-4493-9dc6-6e7e85e15b8c",
+            "Value": {
+                "id": "605f5cc4-44db-423c-81c1-97abcbf11b05",
+                "resourcePath": "scripts\\change_volume\\change_volume.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -268,6 +284,14 @@
                 "id": "852a405c-fa4c-4375-8ca4-fa2dd168b6cf",
                 "resourcePath": "scripts\/intro_test\/intro_test.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6452e8e6-005d-4cdb-b7e4-12f91aba98bb",
+            "Value": {
+                "id": "8a0c8bbf-7534-45e0-96f9-df79a294ea4a",
+                "resourcePath": "rooms\\mainMenuRoom\\mainMenuRoom.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -664,7 +688,9 @@
         "fe3ac2d6-5709-4220-a926-08abb9e22866",
         "fa5adbaa-f1f8-490d-bec6-04204a8b8ac6",
         "8a77aa02-8d2f-45cf-90c4-b9ffad315b04",
-        "baf4ba3d-1c19-48c9-bc79-c513dc24506b"
+        "baf4ba3d-1c19-48c9-bc79-c513dc24506b",
+        "2bd60077-30e5-4493-9dc6-6e7e85e15b8c",
+        "1b2e6bfd-7c8d-4eee-a670-87e59c395d7f"
     ],
     "tutorial": ""
 }

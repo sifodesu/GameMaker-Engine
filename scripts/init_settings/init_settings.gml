@@ -13,8 +13,8 @@ global.kRight = ord(ini_read_string("Binds", "right", "D"));
 window_set_size(global.camera_width * global.camera_scale, global.camera_height * global.camera_scale);
 window_set_position(0, 40);
 
-lastRoom = ini_read_real("Basics", "lastRoom", 1);
+//global.lastRoom = ini_read_real("Basics", "lastRoom", roomA);
 
 ini_close();
 
-room_goto(lastRoom);
+room_goto(mainMenuRoom);
