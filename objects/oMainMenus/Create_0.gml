@@ -21,6 +21,8 @@ ds_menu_main = create_menu_page(
 ds_menu_settings = create_menu_page(
 	["RESOLUTION", menu_element_type.shift, change_resolution, 0, ["Petit Jaja", "Grand Jaja", "Maxi Jaja", "Ultra Jaja", "Supra Jaja", "Plus Ultra Jaja"]],
 	["BITE", menu_element_type.slider, change_volume, 1, [0, 1]],
+	["BITASSE", menu_element_type.toggle, change_volume, 0],
+	["JAJA", menu_element_type.input, "kUp", ord("W")],
 	["BACK", menu_element_type.page_transfer, menu_page.main]
 );
 
@@ -35,3 +37,9 @@ repeat(array_len) {
 }
 
 inputting = false;
+
+cBackground = c_purple;
+cText = c_silver;
+cSelect = c_fuchsia;
+cSet = c_navy;
+cSet2 = c_dkgray;

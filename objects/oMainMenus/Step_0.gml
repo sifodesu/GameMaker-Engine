@@ -14,7 +14,6 @@ if (inputting)
             var hinput = keyboard_check_pressed(global.kRight) - keyboard_check_pressed(global.kLeft);
             if (hinput != 0)
             {
-                // audio
                 ds_[# 3, menu_option[page]] += hinput;
                 ds_[# 3, menu_option[page]] = clamp(ds_[# 3, menu_option[page]], 0, array_length_1d(ds_[# 4, menu_option[page]]) - 1);
             }
@@ -32,14 +31,13 @@ if (inputting)
             var hinput = keyboard_check_pressed(global.kRight) - keyboard_check(global.kLeft);
             if (hinput != 0)
             {
-                // audio
                 ds_[# 3, menu_option[page]] += hinput;
                 ds_[# 3, menu_option[page]] = clamp(ds_[# 3, menu_option[page]], 0, 1);
             }
             break;
         case menu_element_type.input:
             var kk = keyboard_lastkey;
-            if (kk != vk_enter)
+            if (kk != global.kInteract)
             {
                 if (kk != ds_[# 3, menu_option[page]])
                     ds_[# 3, menu_option[page]] = kk;

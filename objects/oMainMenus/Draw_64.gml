@@ -9,7 +9,7 @@ var start_y = (gheight / 2) - ((((ds_height - 1) / 2) * y_buffer)), start_x = gw
 
 
 // draw pause menu "back" 
-var c = c_blue;
+var c = cBackground;
 draw_rectangle_color(0, 0, gwidth, gheight, c, c, c, c, false);
 
 // draw elements on left side 
@@ -23,12 +23,12 @@ var yy = 0;
 repeat (ds_height)
 {
     lty = start_y + (yy * y_buffer);
-    c = c_white;
+    c = cText;
     xo = 0;
     
     if (yy == menu_option[page])
     {
-        c = c_orange;
+        c = cSelect;
         xo = -(x_buffer / 2);
     }
     
@@ -61,7 +61,7 @@ repeat (ds_height)
             var current_array = ds_grid[# 4, yy];
             var left_shift = "<< ";
             var right_shift = " >>";
-            c = c_white;
+            c = cText;
             
             if (current_val == 0)
                 left_shift = "";
@@ -71,7 +71,7 @@ repeat (ds_height)
             
             if (inputting && yy == menu_option[page])
             {
-                c = c_yellow;
+                c = cSet;
             }
             
             draw_text_color(rtx, rty, left_shift + current_array[current_val] + right_shift, c, c, c, c, 1);
@@ -82,13 +82,13 @@ repeat (ds_height)
             var current_val = ds_grid[# 3, yy];
             var current_array = ds_grid[# 4, yy];
             var circle_pos = ((current_val - current_array[0]) / (current_array[1] - current_array[0]));
-            c = c_white;
+            c = cText;
             
             draw_line_width(rtx, rty, rtx + len, rty, 2);
             
             if (inputting && yy == menu_option[page])
             {
-                c = c_yellow;
+                c = cSet;
             }
             draw_circle_color(rtx + (circle_pos * len), rty, 4, c, c, false);
             draw_text_color(rtx + (len * 1.2), rty, string(floor(circle_pos * 100)) + "%", c, c, c, c, 1);
@@ -97,24 +97,24 @@ repeat (ds_height)
         case menu_element_type.toggle:
             var current_val = ds_grid[# 3, yy];
             var c1, c2;
-            c = c_white;
+            c = cText;
             if (inputting && yy == menu_option[page])
             {
-                c = c_yellow;
+                c = cSet;
             }
             if (current_val == 0)
             {
                 c1 = c;
-                c2 = c_dkgray;
+                c2 = cSet2;
             }
             else
             {
-                c1 = c_dkgray;
+                c1 = cSet2;
                 c2 = c;
             }
             
             draw_text_color(rtx, rty, "ON", c1, c1, c1, c1, 1);
-            draw_text_color(rtx, rty, "OFF", c2, c2, c2, c2, 1);
+            draw_text_color(rtx+30, rty, "OFF", c2, c2, c2, c2, 1);
             
             break;
         case menu_element_type.input:
@@ -124,27 +124,30 @@ repeat (ds_height)
             switch (current_val)
             {
                 case vk_up:
-                    current_val = "UP KEY";
+                    string_val = "UP KEY";
                     break;
                 case vk_left:
-                    current_val = "LEFT KEY";
+                    string_val = "LEFT KEY";
                     break;
                 case vk_right:
-                    current_val = "RIGHT KEY";
+                    string_val = "RIGHT KEY";
                     break;
                 case vk_down:
-                    current_val = "DOWN KEY";
+                    string_val = "DOWN KEY";
                     break;
                 default:
-                    current_val = chr(current_val);
+                    string_val = chr(current_val);
             }
             
-            c = c_white;
+            c = cText;
             
             if (inputting && yy == menu_option[page])
             {
-                c = c_yellow;
+                c = cSet;
             }
+			
+			draw_text_color(rtx, rty, string_val, c, c, c, c, 1);
+		break;
     }
     
     yy++;
